@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -23,11 +24,11 @@ class ViewController: UIViewController {
     
         Network.shared.postUser()
         
-        Network.shared.putUser()
+        /*Network.shared.putUser()
         
         Network.shared.patchUser()
         
-        Network.shared.deleteUser()
+        Network.shared.deleteUser()*/
     }
 
 
